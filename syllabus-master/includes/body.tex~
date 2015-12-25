@@ -1,0 +1,92 @@
+%!TEX root = ../syllabus.tex
+% ^ leave for LaTeXTools build functionality
+\input{./includes/header.tex}
+
+\begin{document}
+
+\begin{flushleft}
+\textbf{\large \CourseCode | \CourseName | \Semester}
+\end{flushleft}
+
+\begin{flushleft}
+{\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{cc}
+  \textbf{INSTRUCTOR INFORMATION:} & \textbf{COURSE INFORMATION:} \\
+
+  \begin{tabular}{|ll|}\hline
+  Name:     & \InstName \\\hline
+  Office:       & \OffLoc \\\hline
+  Office Hours: & \OffHours \\\hline
+  Email:      & \Email \\\hline
+  \end{tabular}
+&
+
+  \begin{tabular}{|ll|}\hline
+  Room:     & \ClassLoc \\\hline
+  Lecture Times:  & \ClassTime \\\hline
+  Credits: & \CreditHrs \\\hline
+  Textbook:     & \Text \\\hline
+  \end{tabular}
+
+\end{tabular}
+}
+\end{flushleft}
+
+\textbf{COURSE DESCRIPTION:}\\
+\CourseDesc
+
+\textbf{REQUIRED TEXTS/COURSE PACKS:}\\
+\TextBook
+
+\textbf{LEARNING OUTCOMES:}\\
+\LearnOut
+
+\textbf{COURSE ORGANIZATION:}\\
+\CourseOrg
+
+\textbf{COURSE ASSIGNMENTS AND EVALUATION SCHEDULE:}
+\begin{flushleft}
+	\begin{tabular}{c c}
+		\textbf{Grade Distribution} \\
+		%& \textbf{Assignment of Letter Grades} \\
+		\GradeDist
+		%&
+		%\LetterAssign
+	\end{tabular}
+\end{flushleft}
+\CourseAss
+
+\textbf{FINAL EXAM:} \\
+\FinalExam
+
+\textbf{POLICY ON LATE ASSIGNMENTS \& INCOMPLETE GRADES:}\\
+\LatePolicy
+
+\textbf{CLASS CONDUCT \& EXPECTATIONS:}\\
+\ClassConduct
+
+\textbf{ABSENCES \& MAKE-UP TESTS:}\\
+\Absences
+
+\textbf{ABSENCES FOR RELIGIOUS PURPOSES:}\\
+\Religious
+
+\textbf{PLAGIARISM AND REFERENCING YOUR RESEARCH SOURCES:}\\
+\Plagiarism
+
+\textbf{ACADEMIC AND NON-ACADEMIC MISCONDUCT:}\\
+\AcaHon
+
+\textbf{UNIVERSITY RESOURCES:}\\
+\UniRes
+
+%\textbf{Contingency Plan:} \\
+%\ContPlan
+%
+%\ExtraSections
+%
+%\center{\PostScript}
+%
+%\center{\small{Last updated on \today}}
+
+\end{document}
