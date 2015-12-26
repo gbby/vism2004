@@ -1,5 +1,0 @@
-[0] Config.pm:318> INFO - This is Biber 1.8
-[0] Config.pm:321> INFO - Logfile is 'syllabus.blg'
-[96] biber:275> INFO - === Sun Dec 13, 2015, 11:02:13
-[176] Utils.pm:185> ERROR - Cannot find control file 'syllabus.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[176] Biber.pm:109> INFO - ERRORS: 1

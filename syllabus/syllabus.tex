@@ -1,3 +1,19 @@
+\documentclass[10pt]{article}
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{8.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,urlcolor=blue}
+
+%add .bib
+
+\begin{document}
+
 % Title stuff
 \newcommand{\CourseCode}{
 VISM-2004
@@ -47,19 +63,41 @@ TBA
 TBA
 }
 
-% Questions:
-% - Are there mandatory evaluations?
-% - What can I expect they will know?
-% - What kind of class is this not?
-% - How much can I expect students to read each week?
-% - Can I expect students to read .pdf? What is the timeline for preparing a course package?
-% - Does there need to be a text?
-% Attribution and citation
-% Maybe use wikipedia example
-% or version control
+\begin{flushleft}
+	\textbf{\large \CourseCode | \CourseName | \Semester}
+\end{flushleft}
 
-% http://worrydream.com/dbx/
-% AR and VR
+\begin{flushleft}
+	{\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{cc}
+			\textbf{INSTRUCTOR INFORMATION:} & \textbf{COURSE INFORMATION:} \\
+			
+			\begin{tabular}{|ll|}\hline
+				Name:     & \InstName \\\hline
+				Office:       & \OffLoc \\\hline
+				Office Hours: & \OffHours \\\hline
+				Email:      & \Email \\\hline
+			\end{tabular}
+			&
+			
+			\begin{tabular}{|ll|}\hline
+				Room:     & \ClassLoc \\\hline
+				Lecture Times:  & \ClassTime \\\hline
+				Credits: & \CreditHrs \\\hline
+				Textbook:     & \Text \\\hline
+			\end{tabular}
+			
+		\end{tabular}
+	}
+\end{flushleft}
+
+% QUESTIONS FOR OCAD
+% Are there mandatory evaluations?
+% What can I expect they will know?
+% What kind of class is this not?
+% How much can I expect students to read each week?
+% Can I expect students to read .pdf? What is the timeline for preparing a course package?
+% Does there need to be a text?
 
 % OCAD Notes:
 % Art projects and net art
@@ -67,6 +105,12 @@ TBA
 % David landes
 % Billy bragg
 % Internet porn and hooking up
+% Attribution and citation
+% Maybe use wikipedia example
+% or version control
+% http://worrydream.com/dbx/
+% Augmented reality and virtual reality
+% Andrew Blum tubes
 
 % Internet futures: 
 % Different Internets
@@ -398,6 +442,56 @@ Academic Integrity: \url{http://www.ocadu.ca/students/student-policies/academic-
 Academic Advising: \url{http://www.ocadu.ca/services/academic-advising.htm} \\
 }
 
+
+\textbf{COURSE DESCRIPTION:}\\
+\CourseDesc
+
+\textbf{REQUIRED TEXTS/COURSE PACKS:}\\
+\TextBook
+
+\textbf{LEARNING OUTCOMES:}\\
+\LearnOut
+
+\textbf{COURSE ORGANIZATION:}\\
+\CourseOrg
+
+\textbf{COURSE ASSIGNMENTS AND EVALUATION SCHEDULE:}
+\begin{flushleft}
+	\begin{tabular}{c c}
+		\textbf{Grade Distribution} \\
+		%& \textbf{Assignment of Letter Grades} \\
+		\GradeDist
+		%&
+		%\LetterAssign
+	\end{tabular}
+\end{flushleft}
+\CourseAss
+
+\textbf{FINAL EXAM:} \\
+\FinalExam
+
+\textbf{POLICY ON LATE ASSIGNMENTS \& INCOMPLETE GRADES:}\\
+\LatePolicy
+
+\textbf{CLASS CONDUCT \& EXPECTATIONS:}\\
+\ClassConduct
+
+\textbf{ABSENCES \& MAKE-UP TESTS:}\\
+\Absences
+
+\textbf{ABSENCES FOR RELIGIOUS PURPOSES:}\\
+\Religious
+
+\textbf{PLAGIARISM AND REFERENCING YOUR RESEARCH SOURCES:}\\
+\Plagiarism
+
+\textbf{ACADEMIC AND NON-ACADEMIC MISCONDUCT:}\\
+\AcaHon
+
+\textbf{UNIVERSITY RESOURCES:}\\
+\UniRes
+
+
 %ADDITIONAL INFORMATION
 % Add a policy on respectful dialogue
 
@@ -409,5 +503,4 @@ Academic Advising: \url{http://www.ocadu.ca/services/academic-advising.htm} \\
 %4. Grade inquiries and disputes will not be considered or discussed via e-mail. For all grade inquiries and questions about assignments, please set up an appointment with me. 
 %5. I will not reply to e-mail inquiries regarding course matters (assignment requirements, due dates, exam structure, readings, etc.) that arise from missing class or inattention to the course syllabus. Inquiries requesting clarification will receive replies, though I would strongly prefer these inquiries to be made in class or during office hours.
 
-\input{./includes/body.tex}
-
+\end{document}
