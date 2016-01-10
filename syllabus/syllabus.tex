@@ -15,14 +15,11 @@
 \hypersetup{colorlinks,urlcolor=blue}
 %for graphics
 \usepackage{graphicx}
-
-%add .bib
-% Are there mandatory evaluations?
-% What can I expect they will know?
-% What kind of class is this not?
-% How much can I expect students to read each week?
-% Can I expect students to read .pdf? What is the timeline for preparing a course package?
-% Does there need to be a text?
+%for list spacing
+\usepackage{enumitem}
+%for bibliography
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\addbibresource{vism2004.bib}
 
 \begin{document}
 
@@ -35,81 +32,54 @@
 School of Interdisciplinary Studies}}\newline
 \rule{\textwidth}{1pt}
 
-\textbf{Winter 2015/2016}\\
-\textbf{VISM2004 Web Theory}\\
-\textbf{Time: Mondays, 15:00 to 18:00}\\
-\textbf{Location: Add ROOM number \& BUILDING here}
+\textbf{Semester:} Winter 2016\\
+\textbf{PROVISIONAL SYLLABUS - VISM2004-001 Web Theory}\\
+\textbf{Time:} Mondays, 15:10 to 18:00\\
+\textbf{Location:} RHA 320 - Room 320, 205 Richmond St. W
 
-\textbf{Instructor:} Gabby Resch (\href{mailto:gabby.resch@utoronto.ca}{gabby.resch@utoronto.ca})\\
-\textbf{Office Hours \& Location: Add here}
+\textbf{Instructor:} Gabby Resch - \href{mailto:gabby.resch@utoronto.ca}{gabby.resch@utoronto.ca}\\
+\textbf{Office Hours \& Location:} To Be Determined
 
-\textbf{This Course Has a Final Exam? Yes}\\
-\textbf{Credit Value: Add here}\\
-\textbf{Prerequisite: Add here – Must be exactly what is in the OCADU calendar description}\\
-\textbf{Antirequisite: Add here – Must be exactly what is in the OCADU calendar description}
+\textbf{This Course Has a Final Exam?} Yes\\
+\textbf{Credit Value:} 0.5\\
+\textbf{Prerequisite:} VISC-1001 or VISC-1002\\
+\textbf{Antirequisite:} To Be Determined
 
 \textbf{COURSE CALENDAR DESCRIPTION:}\\
 This course offers students critical, theoretical, and analytical tools to understand contemporary internet issues through study of the history, research methodologies and emerging debates and practices relevant to the World Wide Web. The course will examine web technologies, web aesthetics, the transformation of information in the web, web regulation and copyright, political economy of the internet, web entertainment, and the construction of web identities. Students will develop theoretical and practical tools to help them navigate a number of messy questions that rise to the surface when we begin peeling the multiple layers that constitute the assemblage we've come to understand as today's internet.
 
+%\textbf{CONTEXT:}\\
 %Ashley's:
 %Nearly three decades have passed since media scholar Friedrich Kittler famously claimed that “media determine our situation.” Living in the 21 st century, his edict sounds almost clichéd – our contemporary lives are so thoroughly mediated, so fundamentally entwined with an array of gadgets, apps and entertainment platforms, that it would be impossible to deny the role of media in shaping how we understand the world around us. Despite this, we don’t always question how media frame reality; how they impact us as individuals; how they shape socio-cultural relations; or how they inform our politics. In this introductory course, we will tease apart our experiences of contemporary media in an effort to begin engaging critically with the media in our midst. We won’t work from the sort of introductory textbook that tells you “what” the media “is,” since you’ve all grown up in mediated environments. Instead, we will be starting from your experiences of the media – not so much your passive, 20 th century experiences of “broadcast” media (watching TV, listening to the radio, or reading books and magazines), but instead your interactive, 21 st century experiences of “social” media (blogging, gaming, chatting, and so on). We will bring in academic commentary in order to clarify those experiences and to help you ask more provocative questions about them. In other words, we will move from practice to theory rather than the other way around.
 
-\textbf{CONTEXT:}\\
-
 \textbf{BIOGRAPHY OF INSTRUCTOR:}\\
-I have been fortuante to study the internet through both applied and theoretical lenses, having engaged with a number of design, development, and conceptual projects over the years. I am old enough to remember a pre-internet world. My immediate research has to do with how ocularcentrism (``touch with the eyes'') interaction is being unsettled by new technologies. I work with the \href{http://semaphore.utoronto.ca}{Semaphore Research Cluster on Mobile and Pervasive Computing} and the \href{http://criticalmaking.com}{Critical Making Lab}, both at the University of Toronto. I can often be found reading in the Grange food court, my (current) favourite website is zeptobars, I pronounce .gif with a G, and I write 'internet' without capitalizing the I. You can find out more about me at \href{http://losingtime.ca}{my website}, which I update sporadically. 
+I work with the \href{http://semaphore.utoronto.ca}{Semaphore Research Cluster on Mobile and Pervasive Computing} and the \href{http://criticalmaking.com}{Critical Making Lab}, both at the University of Toronto. Most of my research has to do with how ocularcentrism (``touch with the eyes'') interaction is being unsettled by new technologies, but I have also been fortunate to study the internet through both applied and theoretical perspectives, and have engaged in a number of internet-related design, development, and conceptual projects over the years. I am old enough to remember a pre-internet world, or the weird web of the late 90s/early 2000s, and occasionally yearn for a return those simpler times!\\ I can often be found reading in the Grange food court, my (current) favourite website is probably either \href{http://zeptobars.ru/en/}{ZeptoBars} or \href{http://www.atlasobscura.com/}{Atlas Obscura}, I pronounce .gif with a G, and I write 'internet' without capitalizing the I. You can find out more about me at my website (\href{http://losingtime.ca}{http://losingtime.ca}), which I update sporadically. 
 
 \textbf{REQUIRED TEXTBOOKS/COURSE PACKS::}\\
-% Possibly Dutton's ``Oxford Handbook of Internet Studies'' or Ess and Gonsalvo's text of same name. \\
-% Course pack/readings will be provided online. 
-There is no required textbook for this course. All readings will be provided on Canvas. 
+There is no required textbook for this course. All readings will be provided on Canvas. Students are strongly encouraged to bring a laptop to class. 
 
 \textbf{LEARNING OUTCOMES:}\\
-In addition to providing students with a grounding in the field of Internet Studies, this course introduces students to an interdisciplinary range of methods of analysis and critique. Students will develop familiarity and facility with a range of terms, theories, technologies, and approaches related to analysis and critique of internet structures and usages. As well, students will apply critical tools to their own interactions with the web through internet-based writing and analysis assignments.
-% This course is designed to give students an overview of internet web theory, research, history and design fundamentals, including basic understanding of coding and software commonly used to build web sites. At the end of the semester, students should have a broad understanding of issues related to the internet and web development, and basic practical understanding of skills useful in building web sites. Note: this is not a course for students who wish to learn web design skills, but for students who wish to understand the web as a social and cultural medium. 
+In addition to providing students with a grounding in the field of Internet Studies, this course introduces students to an interdisciplinary range of methods of analysis and critique. Students will develop familiarity and facility with a range of terms, theories, technologies, and approaches related to analysis and critique of internet structures and usages. As well, students will apply critical tools to their own interactions with the web through internet-based writing and analysis assignments. Note: this is a course for students who wish to understand the web as a social and cultural medium, not a course for students who wish to learn web design skills (although, hopefully, students will better understand the web as a social and cultural medium by engaging with the tools used to build it). 
 
-% Update all dates
 \textbf{COURSE ORGANIZATION:}\\
-The major part of the course consists of weekly classes comprised of a lecture, discussion, and a different hands-on or collaborative exercise each week. Students are expected to read the required readings, attend all classes, participate in all activities, and contribute to discussion! Plan to accommodate a minimum of 4 hours per week of homework for this course. Absences from class must be supported with official documentation; three unsupported absences may jeopardize your standing in the course.
+Each week's class will be comprised of a lecture, a group discussion, and a hands-on or collaborative exercise. Students are expected to read the required readings, attend all classes, participate in all activities, and contribute to discussion! Plan to accommodate a \underline{\smash{minimum of 4 hours per week}} of homework for this course. 
 
-% each week, we will engage in some kind of hands-on exercise, making, unmaking, implosion, explosion, etc. dowse, media archaeology
-%media archaeology of a single image
-% one week can be on data and dataviz
-
-% each week's slides will be available at http://losingtime.ca/presentations/VISM2004/
-
-% Course Assignments and Evaluation
 \textbf{COURSE ASSIGNMENTS AND EVALUATION SCHEDULE:}\\\\
 \begin{tabular}{|l|l|}\hline
-Mid-term & 20\% \\\hline
-Web Journal 1 & 20\% \\\hline
-Web Journal 2 & 20\% \\\hline
-Final Exam & 40\% \\\hline\hline
+Participation & 10\% \\\hline
+Journal 1 & 20\% \\\hline
+Journal 2 & 20\% \\\hline
+Midterm & 20\% \\\hline
+Final Exam & 30\% \\\hline\hline
 Total & 100\% \\\hline
 \end{tabular}
-% Letter Grade Assignment
-% Table partitioning assignment of letter grades by percentage and points
-%\newcommand{\LetterAssign}{
-%\begin{tabular}{|c|c|c|}\hline
-%\bf{Grade} & \bf{Points} & \bf{Percentage}\\\hline\hline
-%A & 720-800 & 90\% - 100\%\\
-%B & 640-719 & 80\% - 89\%\\
-%C & 560-639 & 70\% - 79\%\\
-%D & 480-559 & 60\% - 69\%\\
-%F & 0-479 & 0\% - 59\%\\\hline
-%\end{tabular}
-%}
 
-% Table partitioning credit for each assignment
-%can i change grade distribution to give more for class work?
-
-\textit{Web Portfolio Assignments:} \\
-%students will write entries about case studies or made/found objects each week
-%%we will use mozilla webmaker, jsfiddle, kodeweave, plotly, and a handful of other tools. 
-%%samples will be available on my github
-Students will make entries in their Web Journal every week. After each class, you will choose a website and examine it using one of the analytical tools presented in the preceding class. Each weekly Web Journal entry should be at least 250 words (1 double spaced typewritten page). Your Web Journal will be submitted for evaluation on two different due dates: February 10 and March 31. You will be evaluated on the relevance of the websites that you choose to analyze and on the effective use of analytical tools presented in class to examine your chosen website.\\\\
-\textit{Examinations:} \\ 
-A primary method of evaluation and assigning grades will be through a mid-term exam on February 10, from 6:30 pm to 9:30 pm in Room 7320, and a final exam, date time and location to be confirmed. Exams will consist of multiple choice, fill in the blank and essay questions.
+\textit{Participation:}\\ 
+Participation is a crucial component of higher education, and will be worth 10\% of the final grade. Students will be rewarded for attending class, contributing to discussion, engaging with their peers, and fostering a collaborative learning environment. Accommodations will be made for a range of learning styles.\\\\
+\textit{Journal Assignments:}\\
+Students will create entries for a journal every week using one of the analytical tools presented during class. More detailed instructions will be posted in lecture slides, and on Canvas. Each weekly journal entry should be around 250 words, and can use the formatting template that will be made available each week (although students will have creative license to extend the templates as they see fit). Journals are worth 40\% of the total mark, and will be submitted for evaluation on two different due dates: February 22 (20\%) and April 4 (20\%). Students will be evaluated on their effective use of analytical tools presented in class, quality of writing, and creativity.\\\\
+\textit{Examinations:}\\ 
+A primary method of evaluation will be through examinations. This includes a midterm exam, which will take place from 4:30pm to 6:00pm on February 29, in room 320, and will be worth 20\% of the course grade; and a final exam, which will be worth 30\% of the final grade (date, time, and location to be confirmed). Exams will consist of multiple choice, fill-in-the-blank, short answer, and essay questions. 
 
 \textbf{FINAL EXAM:}\\
 All requests for Deferred Final Exams due to medically documented and emergency issues must be requested through the Office of the Registrar as soon as the exam schedule is published.
@@ -118,284 +88,179 @@ All requests for Deferred Final Exams due to medically documented and emergency 
 Assignments must be submitted by end of class on the due dates indicated above. Assignments will be deducted 10\% of the value of the assignment per week, starting the day after the due date. Assignments will only be accepted up to two classes after the due date. Please note that there are no extensions beyond the last day of class.
 
 \textbf{CLASS CONDUCT AND EXPECTATIONS:}\\
-1) You must ensure you are properly registered for the course. If you have any concerns about your registration status, you may confirm on-line, confirm with the Faculty of Liberal Arts \& Sciences Office, or contact the Office of the Registrar. Please first check your registration and read the codes carefully (the codes are clearly explained in the Course Calendar which is available on-line at www.ocadu.ca).
+1) You must ensure you are properly registered for the course. If you have any concerns about your registration status, you may confirm online, confirm with the Faculty of Liberal Arts \& Sciences Office, or contact the Office of the Registrar. Please first check your registration and read the codes carefully (the codes are clearly explained in the Course Calendar, which is available at \href{http://www.ocadu.ca/services/records-and-registration/course-calendar-and-registration.htm}{ocadu.ca}).
 
 2) You are expected to conduct yourself in a manner respectful of your instructor and your fellow students. This includes, at a minimum:
-\begin{itemize}
+\begin{itemize}[noitemsep,nolistsep]
 	\item Arriving on time
 	\item Turning off your cell phone upon arrival
 	\item If late, entering the classroom with the least disruption
 	\item Not interrupting or speaking when someone else has the floor
-	\item Using your laptop appropriately (i.e. not for email)
+	\item Using your laptop appropriately
 \end{itemize}
 
-% Absences
 \textbf{ABSENCES AND MAKE UP TESTS:}\\
-Only under very special circumstances may students hand in late assignments or be absent from classes or tests/exams. If a student is sick, it is incumbent upon the student to notify the Instructor (and the Office of the Registrar, in the case of missed final exams) with proper documentation as soon as possible.  Students with special needs must contact the Centre for Students with Disabilities, ext. 339 at least two weeks prior to the test or assignment.
+Only under very special circumstances may students hand in late assignments or be absent from classes or tests/exams. If a student is sick, it is incumbent upon the student to notify the Instructor (and the Office of the Registrar, in the case of missed final exams) with proper documentation as soon as possible.  Students with special needs must contact the Centre for Students with Disabilities, ext. 339, at least two weeks prior to the test or assignment.
 
 \textbf{ABSENCE FOR RELIGIOUS PURPOSES:}\\
 A student who foresees a conflict between a religious obligation and any scheduled class assignments, including the final examination, must notify their instructor in writing and in the case of final examinations must make a written request to the Office of the Registrar within three weeks of publishing of the syllabus and/or the final exam schedule. 
 
 \textbf{PLAGIARISM AND REFERENCING YOUR RESEARCH SOURCES:}\\
-Plagiarism is the act of taking someone else's ideas, opinions, writings, etc. and representing them as one's own. You plagiarize whenever you borrow another scholar's ideas or quote directly from a work without giving credit through proper citation or acknowledgement. Plagiarism is a serious offense at OCADU (please see OCADU's Policy in the OCADU Academic Calendar). Any assignment in which the ideas of another author are intentionally represented without acknowledgement and/or presented as the student's own work will receive a grade of zero. Please see the following web link for more information:
+Plagiarism is the act of taking someone else's ideas, opinions, writings, etc. and representing them as one's own. You plagiarize whenever you borrow another scholar's ideas or quote directly from a work without giving credit through proper citation or acknowledgement. Plagiarism is a serious offense at OCADU (please see OCADU's Policy in the OCADU Academic Calendar). Any assignment in which the ideas of another author are intentionally represented without acknowledgement and/or presented as the student's own work will receive a grade of zero. Please see the following web link for more information:\\
 \url{http://www.ocadu.ca/students/academic_integrity.htm}
 
 \textbf{ACADEMIC AND NON-ACADEMIC MISCONDUCT:}\\
-Each student has final responsibility for their conduct. Students are expected to be aware of and abide by the regulations as they have been established in OCAD U’s academic and non-academic policies, which can be found on the OCAD U website at the following web link under “Student Policies”: \url{http://www.ocadu.ca/students/student-policies.htm}. These policies outline the responsibility of students to “conduct themselves appropriately and reflect the highest standards of integrity in non-academic as well as academic behaviour”. All allegations of misconduct will be reported and investigated as per the current policies.
+Each student has final responsibility for their conduct. Students are expected to be aware of and abide by the regulations as they have been established in OCAD U’s academic and non-academic policies, which can be found on the OCAD U website at the following web link under “Student Policies”:\\ \url{http://www.ocadu.ca/students/student-policies.htm}.\\ These policies outline the responsibility of students to “conduct themselves appropriately and reflect the highest standards of integrity in non-academic as well as academic behaviour”. All allegations of misconduct will be reported and investigated as per the current policies.
 
 \textbf{WEEKLY READINGS \& CLASS SCHEDULE:}\\
-%To be clearly outlined – enter schedule here. For ACCESSABILITY it is suggested that you do NOT use tables or charts.  For accessibility, it is best if you use week by week lists without chart formatting.
-
-% Art projects and net art
-% Early cyber art
-% David landes
-% leo to the internet
-% phil agre
-% Billy bragg
-% Internet porn and hooking up
-% Attribution and citation
-% Maybe use wikipedia example
-% or version control
-% http://worrydream.com/dbx/
-% Augmented reality and virtual reality
-% Andrew Blum tubes
-
-% Internet futures: 
-% Different Internets
-% North Korea
-% Mesh nets and pirate bets
-
-% Tell first lecture like a story
-
-% http://priceonomics.com/the-richest-photographer-in-the-world/
-% http://contemporary-home-computing.org/RUE/
-% http://www.wired.com/2010/08/ff_webrip/all/1
-
-%http://www.theguardian.com/music/musicblog/2013/feb/28/readers-recommend-songs-internet-results
-% http://www.songfacts.com/category-songs_about_computers_or_technology.php
-% soundtrack MIA, avengers, wipers (YoA)
-% atari teenage riot
-% manovich
-% ilich silence ofthe commons
-%George dyson
-%mosco secret of life
-%data driven life
-% each week, a few groups will have to discuss what they're working on...
-% what are different stages of the internet? what are their features?
-%David Weinberger, Small Pieces Loosely Joined. Perseus Publishing, 2002.
-%David Gauntlett and Ross Horsley, eds., Web Studies. 2nd ed., Oxford UP, 2004.
-%billy bragg great leap 2011 http://www.thenewsignificance.com/2011/11/28/billy-bragg-waiting-for-the-great-leap-forwards-2011-version/
-
-% http://www.slate.com/articles/technology/cover_story/2016/01/how_facebook_s_news_feed_algorithm_works.html
-
-Week 1. January 6 \\
+Week 1. January 11 \\
 \textit{History} \\
-Themes: History of Communications Technology, Ideologies of Technology, Technodeterminism \\
-Readings: \\
-(Required) Abbate - Wizards \\
-(Optional) \url{http://www.rand.org/about/history/baran.html} \\
-Questions: Where did the internet come from? Why did it emerge the way it did? What purpose(s) did it serve?
-%Evocative Objects: \\
-% Case Studies: \\
-% Exercise: Embodied network
-% what were some features of early internet? security. robustness of communication. eventually, identity formation. 
-%https://www.youtube.com/watch?v=suE8cd6VU1M
-%https://www.youtube.com/watch?v=R0jYVjs_dyQ
-%Soundtrack: Rand Hymn \\
-% features: dispersed, closed, 
+Themes: Introduction to the Course; History of the Internet and Associated Communications Technology; Ideologies of Technology \\
+Readings (these will be discussed in the following week's class): \\
+(Required) \fullcite{abbate2001government} \\
+(Required) \url{http://motherboard.vice.com/read/its-2016-and-the-promise-of-the-internet-is-dead}
+(Supplementary) \fullcite{hafner1998wizards} \\
+(Supplementary) Introduction to \fullcite{abbate2000inventing} \\
+(Supplementary) \url{http://www.rand.org/about/history/baran.html} \\
+% last chapter of Tom Misa's book
+Questions: Where did the internet come from? Why did it emerge the way it did? What purpose(s) did it originally serve? How has it changed?
 
-Week 2. January 13 \\
+Week 2. January 18 \\
 \textit{Information} \\
-Themes: % more history %Cybernetics, Networks, Flows of Information, Network Society, representation \\
-%Readings: gleick; Wellman; Galloway, Alex 
+Themes: History (continued); Technodeterminism; Cybernetics; Networks and Flows of Information; Network Society \\
+Readings: \\
+%gleick; Wellman; Galloway, Alex 
 %20 10	“Networks.” Critical Terms for Media Studies.\\
-Questions:
-What is information?
-%Evocative Objects: \\
-%Soundtrack: Terry Riley \\
-%Case Studies: \\
-%Exercise:
-%features: abstract
+Questions: What is information? What is a network?
 
-Week 3. January 20 \\
+Week 3. January 25 \\
 \textit{Media} \\
-Medium Theory, Innis’s Bias of Communication, McLuhan’s Medium and Global Consciousness, Concept of Loose Web, Models of Communication \\
-%Readings: mcluhan/innis - time/space-based media; manovich what is new media \\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: Poles CN Tower; NoMeansNo Vampire Energy \\
-%Case Studies: \\
-%Exercise: 
-%features: connections, culture, society
+Themes: Medium Theory; Innis’s Bias of Communication; McLuhan’s Medium and Global Consciousness \\
+Readings: \\ 
+% mcluhan/innis - time/space-based media; manovich what is new media \\
+Questions: 
 
-Week 4. January 27 \\
+Week 4. February 1 \\
 \textit{Design} \\
-Hypertext, Semiotic Analysis, Graphics and Screen Imaging, Website Case Study \\
-%Readings: Hayles \\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: voidods \\
-%Case Studies: \\
-%Exercise:
-%http://digg.com/video/telidon-art-canada-internet-vaporwave-motherboard
-% features: aesthetics, personalization
+Themes: Hypertext; Semiotic Analysis; Graphics and Screen Imaging; Representation \\ 
+Readings: \\
+%Hayles 
+Questions:
 
-Week 5. February 3 \\
+Week 5. February 8 \\
 \textit{Identity} \\
-Cyberculture, Cyberpunk,  subjectivity, Concept of Web as Cultural Production, Constructing the Prosumer, Shifting Web Identity, Communities \\
-%Readings: Bolter and Grusin - Networked Self, Beer (2009) “Power through the Algorithm?\\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: dead milkmen - secret of life \\
-%Case Studies: \\
-%Exercise: 
-% features: personalization
+Themes: Cyberculture/Cyberpunk; Subjectivity; Self-Representation; Cultural Production on the Web \\ 
+Readings: \\
+%Bolter and Grusin - Networked Self, Beer (2009) “Power through the Algorithm?\\
+Questions: 
 
-Week 6. March 23 \\
-\textit{Social} \\
-Emergence of the social, Communities, Identity, Self-Representation, Profit Driven Social Environments \\
-%Readings: Pfaffenberger, Bryan
+\textit{Reading Week February 15-19}
+
+Week 6. February 22 \\
+JOURNAL 1 DUE \\
+\textit{Community} \\
+Themes: Emergence of the Social Web; Open Source Development; Profit-Driven Social Environments and Roots of Social Media \\
+Readings: \\
+%Pfaffenberger, Bryan
 %1996	“If I Want It, It’s OK: Usenet and the (Outer) Limits of Free Speech.” The Information Society and Sterling Bruce
 %1992	“The Digital Underground.” The Hacker Crackdown
 %http://www.dina.kvl.dk/~abraham/crackdown/crackdown_5.html#SEC5\\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: \\
-%Case Studies: \\
-%Exercise:
+Questions: 
 
-% http://www.theguardian.com/media-network/series/connected-world
+Week 7. February 29 \\
+First half: Review \\
+Second half: MIDTERM EXAM 
 
-Week 7. March 16 \\
-\textit{Entertainment} \\
-Corporate Web Entertainment, Music Industry and Web, Web Distribution, Gaming, remixing, IP and copyright \\
-%Readings: benkler; jenkins; Lessig, L. (15 November 2007). Re: How creativity is being strangled by the law (TED Lecture).
-%[Video file from YouTube]. Retrieved from http://www.youtube.com/watch?v=7Q25-S7jzgs \\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: \\
-%Case Studies: \\
-%Exercise: Remix something
-%features: selling shit
-
-%maybe switch when this is due...
-% this week can be on materiality of internet
-Week 8. February 10 \\
-Mid-term Exam \\
-Web Journal Part 1 Due \\
-%Readings: \\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: \\
-%Case Studies: \\
-%Exercise:
-
-Reading Week February 16-20
-
-Week 9. February 23 \\
+Week 8. March 7 \\
 \textit{Economy} \\
-Gift \& Sharing, Web Capitalization, the New Economy, Constructing audience as Commodity, State and Web, Markets and Web, \\
-%Readings: ethnography of internet miller, star ethnography of, Stein, L. & Sinha, N. (2006). New global media and the role of the state. \\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: Frank Tovey liberty tree \\
-%Case Studies: Lower Manhattan movie and cable map \\
-%Exercise: 
+Themes: Audience as Commodity, \\
+%Corporate Web Entertainment, Music Industry and Web, Web Distribution, Gaming, remixing, IP and copyright Gift \& Sharing, Web Capitalization, the New Economy, Copyright/Property Rights and the Web, DRM, Content Regulation, net neutrality, deep packet inspection, Access to the Internet, 
+Readings: \\
+% benkler; jenkins; Lessig, L. (15 November 2007). Re: How creativity is being strangled by the law (TED Lecture).
+%[Video file from YouTube]. Retrieved from http://www.youtube.com/watch?v=7Q25-S7jzgs \\
+Questions: 
 
-Week 10. March 2 \\
+Week 9. March 14 \\
+\textit{Infrastructure} \\
+Themes: State and Web; Markets and Web \\
+Readings: \\
+%ethnography of internet miller, star ethnography of, Stein, L. & Sinha, N. (2006). New global media and the role of the state. \\
+% this week can be on materiality of internet
+Questions:
+
+Week 10. March 21 \\
 \textit{Memory} \\
-Copyright/Property Rights and the Web, DRM, Content Regulation, net neutrality, deep packet inspection, Access to the Internet, Privacy, Surveillance, Memory \\
-%Readings: vaidyanathan; Mark Andrejevic; Tomasula, S. (2000). C-U see-me. Iowa Review, 30 (3), 3-28.
+Themes: Privacy and Surveillance; Memory \\
+Readings: \\
+%vaidyanathan; Mark Andrejevic; Tomasula, S. (2000). C-U see-me. Iowa Review, 30 (3), 3-28.
 %Solove, D. J. (2007). “I've got nothing to hide" \\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: somebody's watching me \\
-%Case Studies: IXmaps \\ 
-%Exercise: Trace yourself (google profile)
+Questions: 
 
-Week 11. March 9 \\
+Week 11. March 28 \\
 \textit{Attention} \\
+Themes: Immediacy; Compulsion; Big Data \\
 %two themes: the internet wants your attention: immediacy, compulsion, News, Big Data, memes, Multimedia, DIY News, Convergence, Critical Approaches to Web News Objectivity and you want the internet's attention: hacktivism \\
-%Readings: chatfield's aeon piece, terranova, Coleman, Gabriella	
-%2013	Coding Freedom: The Ethics and Aesthetics of Hacking [Introduction, Chapter 2,
-%5, Epilogue] or Coleman, Gabriella
-%2012 	“Our Weirdness Is Free. The logic of Anonymous—online army, agent of chaos, and 	seeker of justice” Triple Canopy
-%http://canopycanopycanopy.com/15/our_weirdness_is_free\\
-%Questions: \\
-%Evocative Objects: \\
-%Soundtrack: automation, chumbawamba liberation \\
-%Case Studies: facebook news feed \\
-%Exercise: dataviz or hack somebody's newsfeed
-%Deabord, Guy
-%1994	 	“Separation Perfected.” The Society of the Spectacle
-%“Guy Debord predicted our distracted society”
-%http://www.guardian.co.uk/commentisfree/2012/mar/30/guy-debord-society-spectacle
+Readings: \\
+Questions: 
 
-% https://www.youtube.com/watch?v=dtVjutBZWLU
-
-%the shallows carr
-%“The net is designed to be an interruption system, a machine geared to dividing attention,” Nicholas Carr explains in his book “The Shallows: What the Internet Is Doing to Our Brains.” “We willingly accept the loss of concentration and focus, the division of our attention and the fragmentation of our thoughts, in return for the wealth of compelling or at least diverting information we receive.”
-%or see his is google making us stupid article
-%
-%attention economy
-%going offline
-%Future Internet
-%Born digital to digital-free
-% the data future
-%Maybe move attention week to here
-
-Week 12. March 31 \\
-Web Journal Part 2 Due \\
+Week 12. April 4 \\
+JOURNAL 2 DUE \\
 \textit{Future(s)} \\
-%new luddism, \\
-%Readings: ilich silence as a commons, Zittrain, J. (2007). Saving the Internet. \\
-%Questions: What kind of internet do we want? Is the internet governable? \\
-%Evocative Objects: \\
-%Soundtrack: future punks, marion black, Get off the internet – Le Tigre \\
-%Case Studies: \\
-%Exercise: write, draw, whatever - the internet that you want
+Themes: %new luddism, \\
+Readings: \\
+% ilich silence as a commons, Zittrain, J. (2007). Saving the Internet. \\
+Questions: What kind of internet do we want? Is the internet governable?
 
-% Wendy Chun (2011) Crisis, Crisis, Crisis; or, the Temporality of Networks,” Theory, Culture & Society. Vol. 28(6): 91-112
-% tblee future of the web
-%weinberger chap 8
-% Does the internet of today resemble the internet of yesteryear?
+Week 13. \\
+Final Exam - Date, time, location to be determined \\
+Official exam period runs from Monday, April 11 to Thursday, April 21     
 
-% http://flavorwire.com/554079/watch-the-trailer-for-werner-herzogs-internet-documentary-lo-and-behold-reveries-of-the-connected-world
+\textbf{UNIVERSITY RESOURCES:}
 
-Week 13. Final Exam, date time, location to be confirmed
-
-%Additional readings and resources:
-%Ratto - Critical Making
-%Rogers - Digital Methods
-
-\textbf{UNIVERSITY RESOURCES:}\\
 \textbf{Writing and Learning Centre:}\\
-Resources specific to this course, for students requiring assistance with the material and with writing or reading comprehension, and for those for whom English is a second language, are provided through the Writing and Learning Centre, room 1501, 113 McCaul, 5th floor (ext. 229); e-mail: <Writing and Learning Centre e-mail link>  One-on-one tutoring is available and confidential.  The Writing and Learning Centre (WLC) provides free services for all students including writing, critical thinking, critical reading, and study skills, through one-on-one tutoring, group tutoring, writing and academic skills workshops, resource materials, and ESL assistance.  Please see the following web link for more information. Writing and Learning Centre: \url{http://www.ocadu.ca/services/writing-and-learning-centre.htm} \\
-%
+Resources specific to this course, for students requiring assistance with the material and with writing or reading comprehension, and for those for whom English is a second language, are provided through the \textbf{Writing and Learning Centre, room 1501, 113 McCaul, 5th floor (ext. 229); e-mail:} \href{mailto:wlc@ocadu.ca}{wlc@ocadu.ca}\\  One-on-one tutoring is available and confidential.  The Writing and Learning Centre (WLC) provides free services for all students including writing, critical thinking, critical reading, and study skills, through one-on-one tutoring, group tutoring, writing and academic skills workshops, resource materials, and ESL assistance.  Please see the following web link for more information:\\ Writing and Learning Centre - \url{http://www.ocadu.ca/services/writing-and-learning-centre.htm} 
+
 \textbf{Services for Students with Disabilities:}\\
-Formal and informal student-centred supports, such as counselling, academic accommodations, and specialized services are available year-round to students registered with the Centre for Students with Disabilities. Students who think they may have learning or physical disabilities should contact Services for Students with Disabilities (ext. 339), 51 McCaul St. 2nd level, as soon as possible. Students must be registered with the CSD to receive accommodations and related support. It is important to register early in the semester to ensure the accommodations can be scheduled by the start of the semester.  Please see the following web link for more information. Centre for Students with Disabilities: \url{http://www.ocadu.ca/services/disability-services/about-the-CSD.htm} \\
-%
+Formal and informal student-centred supports, such as counselling, academic accommodations, and specialized services are available year-round to students registered with the Centre for Students with Disabilities (CSD). Students who think they may have learning or physical disabilities should contact \textbf{Services for Students with Disabilities (ext. 339), 51 McCaul St. 2nd level}, as soon as possible. Students must be registered with the CSD to receive accommodations and related support. It is important to register early in the semester to ensure the accommodations can be scheduled by the start of the semester.  Please see the following web link for more information:\\ CSD - \url{http://www.ocadu.ca/services/disability-services/about-the-CSD.htm} 
+
 \textbf{Dorothy Hoover Library:}\\
 \url{http://www.ocadu.ca/library.htm} \\
 OCADU Library, 113 McCaul, 2nd Floor , Room 1215 \\
 General Reference Desk: ex. 334 \\
 Art and Design Reference, Robert Fabbro: ex. 343 \\
-Art and Liberal Arts \& Sciences Reference, Daniel Payne: ex. 217 \\
-%
+Art and Liberal Arts \& Sciences Reference, Daniel Payne: ex. 217 
+
 \textbf{Other University Services:}\\
-Health and Wellness Centre: \url{http://www.ocadu.ca/services/health-and-wellness.htm} \\
-Academic Integrity: \url{http://www.ocadu.ca/students/student-policies/academic-policies.htm} \\
-Academic Advising: \url{http://www.ocadu.ca/services/academic-advising.htm} \\
+Health and Wellness Centre - \url{http://www.ocadu.ca/services/health-and-wellness.htm} \\
+Academic Integrity - \url{http://www.ocadu.ca/students/student-policies/academic-policies.htm} \\
+Academic Advising - \url{http://www.ocadu.ca/services/academic-advising.htm} 
 
-%ADDITIONAL INFORMATION
-% Add a policy on respectful dialogue
+\textbf{EMAIL POLICY:} 
+During the academic year, I receive a considerable amount of email. In order for me to respond to my email efficiently, please follow the following guidelines:
+\begin{enumerate}[noitemsep,nolistsep]
+	\item If you cannot see me during office hours, email to set up an appointment; I will try to respond as soon as possible, but I usually cannot accommodate a meeting with less than 48 hours notice.
+	\item I usually do not read or reply to email after 5 PM or weekends. 
+	\item Follow instructions for turning in assignments. 
+	\item Grade inquiries and disputes will not be considered or discussed via email. For all grade inquiries and questions about assignments, please set up an appointment with me. 
+	\item I will not reply to email inquiries regarding course matters (assignment requirements, due dates, exam structure, readings, etc.) that arise from missing class or inattention to the course syllabus. Inquiries requesting clarification will receive replies, though I would strongly prefer for these inquiries to be made in class or during office hours.
+\end{enumerate}
 
-%EMAIL POLICY During the academic year, I receive a considerable amount of email. In order for me to respond to my e-mail efficiently, please follow the following guidelines:
-%
-%1. If you cannot see me during my office hours, e-mail me to set up an appointment; I will try to respond as soon as possible but I usually cannot accommodate a meeting in 24 or even 48 hours.
-%2. I read and reply to e-mail once a day and usually do not read or reply to e-mail after 5 PM or weekends.   
-%3. Follow instructions for turning in assignments. For this class you are expected to turn in the reading responses via e-mail by 10 a.m. and in class. No other assignments submitted by e-mail will be accepted. 
-%4. Grade inquiries and disputes will not be considered or discussed via e-mail. For all grade inquiries and questions about assignments, please set up an appointment with me. 
-%5. I will not reply to e-mail inquiries regarding course matters (assignment requirements, due dates, exam structure, readings, etc.) that arise from missing class or inattention to the course syllabus. Inquiries requesting clarification will receive replies, though I would strongly prefer these inquiries to be made in class or during office hours.
+\textbf{ADDITIONAL RESOURCES:}
+A significant amount of information will be shared on Canvas. Students will have a responsibility to stay up-to-date with the course Canvas home.\\ 
+Lecture slides, notes, code templates, and a course bibliography file (in .bib format) will be made available on GitHub in a repository which can be found at \url{https://github.com/gbby/vism2004}. All students are strongly encouraged to make use of this resource.\\
+%Additional readings and resources re my methodological approach:
+%\fullcite{ratto2011critical}
+%Rogers - Digital Methods
+The following are sites that students might find useful:
+ \begin{itemize}[noitemsep,nolistsep]
+ 	\item \url{http://alternativeto.net/}
+ 	\item \url{http://stackoverflow.com/}
+ 	\item \url{http://www.instructables.com/}
+ 	\item \url{http://www.theguardian.com/media-network/series/connected-world}
+ 	\item \url{http://www.theatlantic.com/special-report/beneath-the-cloud/}
+ 	\item \url{http://motherboard.vice.com/en_ca}
+ \end{itemize}
+ Pay attention to the last slide of each class for links to more resources. 
+
 
 \end{document}
