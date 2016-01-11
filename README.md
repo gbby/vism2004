@@ -1,6 +1,6 @@
 ## Introduction
 
-Welcome to **VISM2004 - Web Theory** at OCAD University!
+Welcome to **VISM2004 - Web Theory** at [OCAD University](http://www.ocadu.ca/)!
 <!---
 your comment goes here
 and here
@@ -12,7 +12,7 @@ My name is Gabby Resch. I work with the [Semaphore Research Cluster on Pervasive
 
 ## Syllabus
 
-You will find the syllabus in .tex, .rtf, and .pdf formats in the /syllabus-master directory.
+You will find the syllabus in .tex and .pdf formats in the /syllabus directory.
 <!---
 Course materials - readings, for example - can be found on Canvas.
 -->
